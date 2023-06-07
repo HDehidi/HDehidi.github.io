@@ -81,6 +81,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-linux"
     },
     {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
