@@ -168,9 +168,33 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I AM WORKED ON",
   projects: [
     {
+      image: require("./assets/images/Kaggle_logo.png"),
+      projectName: "American Sign Language Fingerspelling Recognition - Computer Vision",
+      projectDesc: "Kaggle competition to detect and translate American Sign Language (ASL) fingerspelling into text.",
+      footerLink: [
+        {
+          name: "Visit Leaderboard",
+          url: "https://www.kaggle.com/competitions/asl-fingerspelling/leaderboard"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/hf-logo.png"),
       projectName: "Infant Cry Verification Challenge - Audio Classification",
       projectDesc: "Hugging Face challenge to verify infant cries using speaker verification techniques",
+      footerLink: [
+        {
+          name: "Visit Leaderboard",
+          url: "https://huggingface.co/spaces/competitions/CryCeleb2023"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/githubLogo.png"),
+      projectName: "MLOps zoomcamp",
+      projectDesc: "Learned practical aspects of productionizing ML services — from training and experimenting to model deployment and monitoring. Technologies used: MLflow, Prefect, Flask, Terraform",
       footerLink: [
         {
           name: "Visit Leaderboard",
