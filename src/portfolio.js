@@ -45,15 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Enthusiastic Data Scientist 📊 passionate about ML and MLOps, actively learn new technologies and excel in problem-solving.",
+  subTitle:
+    "Enthusiastic Data Scientist 📊 passionate about ML and MLOps, actively learn new technologies and excel in problem-solving.",
   skills: [
+    emoji("⚡ Build NLP and CV models using TensorFlow and Keras frameworks."),
     emoji(
-      "⚡ Build NLP and CV models using TensorFlow and Keras frameworks."
+      "⚡ Utilize Sklearn, Pandas, and NumPy for data analysis, and ML modeling."
     ),
-    emoji("⚡ Utilize Sklearn, Pandas, and NumPy for data analysis, and ML modeling."),
-    emoji(
-      "⚡ Participate in Hugging Face challenges"
-    )
+    emoji("⚡ Participate in Hugging Face challenges")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -106,14 +105,14 @@ const educationInfo = {
       logo: require("./assets/images/kocLogo.png"),
       subHeader: "Master of Science in Data Science",
       duration: "September 2020- September 2021",
-      desc: "Ranked top 10% in the program. Took courses about Machine Learning, Cloud Security, Big Data Systems, ...",
+      desc: "Ranked top 10% in the program. Took courses about Machine Learning, Cloud Security, Big Data Systems, ..."
     },
     {
       schoolName: "Hashemite University",
       logo: require("./assets/images/HashemiteLogo.png"),
       subHeader: "Bachelor of Science in Mechanical Engineering",
       duration: "September 2010 - April 2014",
-      desc: "Graduated first in my engineering college",
+      desc: "Graduated first in my engineering college"
     }
   ]
 };
@@ -148,19 +147,19 @@ const workExperiences = {
       role: "Data Scientist",
       company: "Dubai Holding",
       companylogo: require("./assets/images/DHLogo.png"),
-      date: "Sep 2020 – Present",
+      date: "Sep 2020 – Present"
     },
     {
       role: "Data Scientist",
       company: "Scrintal",
       companylogo: require("./assets/images/ScrintalLogo.png"),
-      date: "Oct 2019 – Sep 2020",
+      date: "Oct 2019 – Sep 2020"
     },
     {
       role: "Mechanical Engineer",
       company: "Dubai Properties",
       companylogo: require("./assets/images/DPLogo.png"),
-      date: "Aug 2014 – Sep 2019",
+      date: "Aug 2014 – Sep 2019"
     }
   ]
 };
@@ -181,8 +180,10 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Kaggle_logo.png"),
-      projectName: "American Sign Language Fingerspelling Recognition - Computer Vision",
-      projectDesc: "Kaggle competition to detect and translate American Sign Language (ASL) fingerspelling into text.",
+      projectName:
+        "American Sign Language Fingerspelling Recognition - Computer Vision",
+      projectDesc:
+        "Kaggle competition to detect and translate American Sign Language (ASL) fingerspelling into text.",
       footerLink: [
         {
           name: "Visit Leaderboard",
@@ -194,7 +195,8 @@ const bigProjects = {
     {
       image: require("./assets/images/hf-logo.png"),
       projectName: "Infant Cry Verification Challenge - Audio Classification",
-      projectDesc: "Hugging Face challenge to verify infant cries using speaker verification techniques",
+      projectDesc:
+        "Hugging Face challenge to verify infant cries using speaker verification techniques",
       footerLink: [
         {
           name: "Visit Leaderboard",
@@ -206,7 +208,8 @@ const bigProjects = {
     {
       image: require("./assets/images/githubLogo.png"),
       projectName: "MLOps zoomcamp",
-      projectDesc: "Learned practical aspects of productionizing ML services — from training and experimenting to model deployment and monitoring. Technologies used: MLflow, Prefect, Flask, Terraform",
+      projectDesc:
+        "Learned practical aspects of productionizing ML services — from training and experimenting to model deployment and monitoring. Technologies used: MLflow, Prefect, Flask, Terraform",
       footerLink: [
         {
           name: "Visit Leaderboard",
@@ -218,7 +221,8 @@ const bigProjects = {
     {
       image: require("./assets/images/githubLogo.png"),
       projectName: "Data Science Projects",
-      projectDesc: " A repository serves as a platform for showcasing my data science projects.",
+      projectDesc:
+        " A repository serves as a platform for showcasing my data science projects.",
       footerLink: [
         {
           name: "Visit Github Repo",
@@ -249,7 +253,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.coursera.org/account/accomplishments/certificate/PZHMS7UX7CYX"
-        },
+        }
       ]
     },
     {
@@ -268,7 +272,8 @@ const achievementSection = {
 
     {
       title: "Build and Operate Machine Learning Solutions with Azure",
-      subtitle: "I learn how to use Python and machine learning to manage data ingestion and preparation, model training and deployment, and machine learning solution monitoring in Microsoft Azure.",
+      subtitle:
+        "I learn how to use Python and machine learning to manage data ingestion and preparation, model training and deployment, and machine learning solution monitoring in Microsoft Azure.",
       image: require("./assets/images/CourseraLogo.png"),
       imageAlt: "Coursera Logo",
       footerLink: [
