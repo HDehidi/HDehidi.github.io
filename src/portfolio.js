@@ -104,7 +104,7 @@ const educationInfo = {
       schoolName: "Koç University",
       logo: require("./assets/images/kocLogo.png"),
       subHeader: "Master of Science in Data Science",
-      duration: "September 2020- September 2021",
+      duration: "September 2020- September 2022",
       desc: "Ranked top 10% in the program. Took courses about Machine Learning, Cloud Security, Big Data Systems, ..."
     },
     {
